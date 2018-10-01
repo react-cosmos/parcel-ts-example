@@ -7,8 +7,8 @@
     "dist": "npm run playground:build:playground && npm run playground:build:loader",
     "playground:watch:playground": "parcel watch src/playground/playground.html --out-dir static/playground --public-url /static/playground",
     "playground:watch:loader": "parcel watch src/loader/loader.html --out-dir static/playground/loader --public-url /static/playground/loader",
-    "playground:build:playground": "parcel build src/playground/index.html --out-dir static/playground --public-url /static/playground",
-    "playground:build:loader": "parcel build src/modules/playground/loader/index.html --out-dir static/playground/loader --public-url /static/playground/loader"
+    "playground:build:playground": "parcel build src/playground/playground.html --out-dir static/playground --public-url /static/playground",
+    "playground:build:loader": "parcel build src/loader/loader.html --out-dir static/playground/loader --public-url /static/playground/loader"
   },
   "repository": {
     "type": "git",
